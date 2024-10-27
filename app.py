@@ -98,7 +98,7 @@ def kmp_search(content, term, whole_word=False, case_sensitive=False):
     return results
 
 # Streamlit GUI
-st.title("Unified Word Search Application")
+st.title("Word Search Application")
 st.write("Search for a specific word across multiple text files using both Brute Force and KMP algorithms.")
 
 uploaded_files = st.file_uploader("Upload Text Files", accept_multiple_files=True, type=["txt"])
