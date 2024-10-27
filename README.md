@@ -19,3 +19,9 @@ This is a Streamlit application that allows users to search for specific words a
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/streamlit-word-search.git
+2. cd streamlit-word-search
+3. pip install streamlit
+
+## How to run
+
+- streamlit run app.py
